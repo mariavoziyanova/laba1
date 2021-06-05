@@ -74,7 +74,6 @@ TEST(matrix, add) {
     }
   }
   Matrix res = matrix_create(INT_Type, N);
-  matrix_show(first);
   matrix_add(first, second);
   for (int i = 0; i < N; i++) {
     for (int j = 0; j < N; j++) {
